@@ -1,0 +1,17 @@
+<component>
+    <span>Component</span>
+
+    <style>
+        :host {
+            color: var(--color, black);
+        }
+    </style>
+
+    <script>
+        export default {
+            onMounted() {
+                this.root.style.setProperty("--color", "red");
+            }
+        }
+    </script>
+</component>

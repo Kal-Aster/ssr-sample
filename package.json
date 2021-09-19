@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.5",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.56.3",
+    "rollup-plugin-riot": "^6.0.0",
+    "rollup-plugin-ts": "^1.4.2"
+  },
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "@riotjs/ssr": "^7.1.1",
+    "riot": "^6.0.4"
+  }
+}
